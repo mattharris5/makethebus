@@ -1,0 +1,84 @@
+/*@import "fonts.css";*/
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900');
+
+* {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgb(89, 105, 129);
+}
+
+h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  font-weight: 800;
+  color: rgba(95, 92, 154, 0.75);
+  border-bottom: 2px solid rgb(238, 241, 246);
+  padding-bottom: 5px;
+}
+
+.hero.u-full-width {
+  padding: 2rem;
+}
+
+ul.predictions {
+  list-style: none;
+  padding: none;
+}
+
+ul.predictions > li {
+  margin: 0;
+  padding: 2rem 0;
+  border-bottom: 1px solid rgb(238, 241, 246);
+  background: linear-gradient(transparent, rgba(95, 92, 154, 0.02));
+}
+
+ul.predictions > li > a.route {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 1.5rem 1.5rem 1.5rem 0;
+  padding: 0.25rem 2rem;
+  text-align: center;
+  border-radius: 4px;
+  background: rgb(95, 92, 154);
+  color: white;
+}
+
+ul.predictions > li > h4 {
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+ul.predictions > li > h4 > small {
+  margin-left: 1rem;
+  font-size: 80%;
+  color: rgba(89, 105, 129, 0.5);
+  font-weight: 500;
+}
+
+ul.times {
+  list-style: none;
+  margin-top: 0;
+}
+
+ul.times > li {
+  display: inline-block;
+  padding: 0;
+  margin: 0 5px 0 0;
+  font-weight: 600;
+  font-size: 150%;
+}
+
+ul.times > li::after {
+  content: ",";
+  color: rgba(89, 105, 129, 0.5);
+}
+
+ul.times > li:first-child {
+  font-size: 200%;
+}
+
+ul.times > li:last-child::after {
+  content: "";
+}
